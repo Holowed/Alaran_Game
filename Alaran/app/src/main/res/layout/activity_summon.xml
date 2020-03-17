@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="200sp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        >
+        <TextView
+            android:id="@+id/result_Lysy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/summon_Lysy"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10sp"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/one_Lysy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/two_Lysy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            android:layout_below="@+id/one_Lysy"
+            />
+
+        <TextView
+            android:id="@+id/three_Lysy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            android:layout_below="@+id/two_Lysy"
+            />
+
+        <TextView
+            android:id="@+id/four_Lysy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            android:layout_below="@+id/three_Lysy"
+            />
+
+        <TextView
+            android:id="@+id/five_Lysy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            android:layout_below="@id/four_Lysy"
+            />
+
+        <TextView
+            android:id="@+id/counter_Lysy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/five_Lysy"
+            android:text=""
+            />
+
+        <Button
+            android:id="@+id/summon_Lysy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Lysy" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="200sp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        >
+        <TextView
+            android:id="@+id/result_Ari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/summon_Ari"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10sp"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/one_Ari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/two_Ari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            android:layout_below="@+id/one_Ari"
+            />
+
+        <TextView
+            android:id="@+id/three_Ari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            android:layout_below="@+id/two_Ari"
+            />
+
+        <TextView
+            android:id="@+id/four_Ari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            android:layout_below="@+id/three_Ari"
+            />
+
+        <TextView
+            android:id="@+id/five_Ari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            android:layout_below="@id/four_Ari"
+            />
+
+        <TextView
+            android:id="@+id/counter_Ari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/five_Ari"
+            android:text=""
+            />
+
+        <Button
+            android:id="@+id/summon_Ari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Ari" />
+    </RelativeLayout>
+</RelativeLayout>
