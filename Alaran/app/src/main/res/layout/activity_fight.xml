@@ -47,48 +47,21 @@
             android:id="@+id/Attacker_label"
             android:textSize="30sp"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poziom"
+            android:id="@+id/Attacker_lvl_label"
+            android:layout_below="@id/Attacker_label"
+            android:textSize="20sp" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Atak"
-            android:layout_below="@+id/Attacker_label"
-            android:id="@+id/Attacker_AT"
-            android:text="150"
-            />
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="HP"
-            android:layout_below="@+id/Attacker_AT"
-            android:id="@+id/Attacker_HP"
-            android:text="500"
-            />
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Obrona"
-            android:layout_below="@+id/Attacker_HP"
-            android:id="@+id/Attacker_DEF"
-            android:text="40"
-            />
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Unik (0 - 100)"
-            android:layout_below="@+id/Attacker_DEF"
-            android:id="@+id/Attacker_EVA"
-            android:text="40"
-            />
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Celność (0 - 100)"
-            android:layout_below="@+id/Attacker_EVA"
-            android:id="@+id/Attacker_ACC"
-            android:text="70"
-            />
-    </RelativeLayout>
+            android:id="@+id/Attacker_lvl"
+            android:layout_below="@id/Attacker_lvl_label"
+            android:text="1" />
 
+    </RelativeLayout>
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -103,45 +76,20 @@
             android:id="@+id/Defender_label"
             android:textSize="30sp"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poziom"
+            android:id="@+id/Defender_lvl_label"
+            android:layout_below="@id/Defender_label"
+            android:textSize="20sp" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Atak"
-            android:layout_below="@+id/Defender_label"
-            android:id="@+id/Defender_AT"
-            android:text="100"
-            />
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="HP"
-            android:layout_below="@+id/Defender_AT"
-            android:id="@+id/Defender_HP"
-            android:text="1000"
-            />
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Obrona"
-            android:layout_below="@+id/Defender_HP"
-            android:id="@+id/Defender_DEF"
-            android:text="50"
-            />
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Unik (0 - 100)"
-            android:layout_below="@+id/Defender_DEF"
-            android:id="@+id/Defender_EVA"
-            android:text="35"
-            />
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Celność (0 - 100)"
-            android:layout_below="@+id/Defender_EVA"
-            android:id="@+id/Defender_ACC"
-            android:text="60"
-            />
+            android:id="@+id/Defender_lvl"
+            android:layout_below="@id/Defender_lvl_label"
+            android:text="1" />
+
     </RelativeLayout>
+
 </RelativeLayout>

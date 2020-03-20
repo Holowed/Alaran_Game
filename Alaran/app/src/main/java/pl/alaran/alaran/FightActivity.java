@@ -10,6 +10,7 @@ import android.widget.TextView;
 import java.util.Random;
 import java.util.ArrayList;
 import java.util.List;
+import pl.alaran.alaran.Character;
 
 public class FightActivity extends AppCompatActivity {
     TextView FightLog;
@@ -23,23 +24,13 @@ public class FightActivity extends AppCompatActivity {
 
     public void Fight(View v){
         FightLog.setText("");
-        List<Integer> Attacker;
-        List<Integer> Defender;
-        Attacker = new ArrayList<Integer>();
-        Defender = new ArrayList<Integer>();
-        Attacker.add(getInt(R.id.Attacker_AT));
-        Attacker.add(getInt(R.id.Attacker_HP));
-        Attacker.add(getInt(R.id.Attacker_DEF));
-        Attacker.add(getInt(R.id.Attacker_EVA));
-        Attacker.add(getInt(R.id.Attacker_ACC));
-        Attacker.add(1);
+        Integer Eina[10] = {
+            toInteger().findViewById(R.id.Attacker_lvl),
 
-        Defender.add(getInt(R.id.Defender_AT));
-        Defender.add(getInt(R.id.Defender_HP));
-        Defender.add(getInt(R.id.Defender_DEF));
-        Defender.add(getInt(R.id.Defender_EVA));
-        Defender.add(getInt(R.id.Defender_ACC));
-        Defender.add(2);
+        };
+
+
+
         FightLog.append("---- ROZPOCZĘTO WALKĘ ----- \n");
         int i = 0;
         while(Defender.get(1)>0 && Attacker.get(1)>0)
