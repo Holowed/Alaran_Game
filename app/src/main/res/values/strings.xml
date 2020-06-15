@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PE</string>
+    <string name="team">Drużyna</string>
+    <string name="fight">Walcz!</string>
+    <string name="summon">Przywołaj</string>
+    <string name="basicSummon">Zwykłe przywołanie</string>
+    <string name="premiumSummon">Mistyczne przywołanie</string>
+    <string name="multiSummon">Mistyczne przywołanie X10</string>
+    <string name="level">Poziom</string>
+    <string name="exp">Doświadczenie</string>
+    <string name="form">Forma</string>
+    <string name="attack">Atak</string>
+    <string name="health">Zdrowie</string>
+    <string name="defense">Obrona</string>
+    <string name="dodge">Unik</string>
+    <string name="accuracy">Celność</string>
+    <string name="critical_hit">Trafienie krytyczne</string>
+    <string name="start_fight">Rozpocznij walkę</string>
+</resources>

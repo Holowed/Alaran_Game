@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".summon.SummonActivity"
+    android:background="@drawable/summon_bg"
+    android:id="@+id/summonActivity"
+    >
+
+    <Button
+        android:id="@+id/basicSummon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/basicSummon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/premiumSummon"
+        android:text="@string/premiumSummon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/basicSummon"
+        app:layout_constraintRight_toRightOf="@id/multiSummon"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/multiSummon"
+        android:text="@string/multiSummon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/premiumCurrency"
+        android:text="200 Malir"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/colorAccent"
+        android:padding="5sp"
+        />
+    <TextView
+        android:background="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toLeftOf="@id/premiumCurrency"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/basicCurrency"
+        android:text="150 Malvenósów"
+        android:padding="5sp"
+        android:layout_marginRight="5sp"
+        />
+
+    <ImageView
+        android:id="@+id/wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@null"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
